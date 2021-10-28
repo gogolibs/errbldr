@@ -6,7 +6,6 @@ import (
 	"testing"
 )
 
-
 func TestMsg(t *testing.T) {
 	err := Msg("msg").Err()
 	require.Equal(t, "msg", err.Error())
